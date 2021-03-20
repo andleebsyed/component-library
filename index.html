@@ -9,22 +9,60 @@
 <body>
 <div class= "main">
     <div class="header">
-        <h1>i am a header</h1>
+        <h1 class="logo">Electron UI</h1>
+       <ul class = "header-list">
+           <li>Home</li>
+           <li>Documentation</li>
+           <li>About</li>
+           <li>Contact</li>
+       </ul>
     </div>
     <div class="sidebar">
         <ul >
-        <li>Avatar</li>
-        <li>Avatar</li>
-        <li>Avatar</li>
+        <li>
+            <a>Avatar</a></li>
+            <li>
+                <a href="#avatar">Avatar</a></li>
+                <li>
+                    <a>Avatar</a></li>
         </ul>
     </div>
-    <div class = "mainContent">
+    
+    <div class="main-outer">
+        <div class="main-inner">
 
+            <h1>Welcome to Electron UI</h1>
+            <p>To use Electron in your project you need to import it</p>
+            <div class="show-code">
+                &lt; link will go here &gt;
+            </div>
+        </div>
+        <div id="avatar" class="main-inner">
+            <h1 class="inner-heading">Avatar</h1>
+            <p>In computing, an avatar (also known as a profile picture or userpic) is a graphical representation of a user or the user's character or persona. It may take either a two-dimensional form as an icon in Internet forums and other online communities or a three-dimensional form, as in games or virtual worlds</p>
+            <img class="avatar" src="https://picsum.photos/200.jpg">
+          
+            <!-- <img class="avatar-large" src="https://picsum.photos/200.jpg"> -->
+            <div class="show-code">
+                &lt; img class="avatar" src="https://picsum.photos/200.jpg" &gt;
+            </div>
+            <img class="avatar-large" src="https://picsum.photos/200.jpg">
+           
+            <div class="show-code">
+                &lt; img class="avatar-large" src="https://picsum.photos/200.jpg" &gt;
+            </div>
+         
+
+    
+           
+            
+        </div>
+<!-- 
         <div>
         <h1>Buttons</h1>
-        <h1>This is a primary Button which can be used in projects</h1>
+        <h1>This is a primary Button which can be used in projects  </h1>
         <button class="btnPrimary">Primary Button</button>
-        </div>
+        </div> -->
 
     </div>
 </div>

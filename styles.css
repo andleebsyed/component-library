@@ -1,37 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    /* colors will go here */
+}
 .main{
     display : grid ;
-    grid-template-columns: 150px  auto ;
-    grid-template-rows: 80px  auto;
-    grid-template-areas: "sidebar header "
+    grid-template-columns: 20%  auto ;
+    grid-template-rows: 10%  auto;
+    grid-template-areas: "header header "
     "sidebar mainContent";
-    border: 1px solid black;
+    /* border: 1px solid red; */
+}
+.header{
+    grid-area: header;
+}
+
+.logo{
+    display: inline;
+    margin-left : 1rem;
+    /* color : blue */
+}
+.header-list{
+    margin : 1rem;
+    list-style: none;
+    display: flex;
+    float : right;
+    /* justify-content: space-between; */
+    
+ } 
+.header-list li{
+    margin : 1rem;
+    display: flex;
+    align-items: flex-end;
 }
 
 .sidebar{
     grid-area: sidebar;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+
 
 }
-.mainContent{
+
+.main-outer{
     grid-area: mainContent;
-    border: 1px solid black;
-    display: flex ;
+    /* border: 1px solid blue; */
+
+
+}
+.main-inner{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.show-code{
+    height : 60px ;
+    border-radius: 0.5rem;
+    margin : 1rem ;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #D1D5DB;
+    display: flex; 
     align-items: center;
     justify-content: center;
-
-}
-.mainContent div{
-    /* to center a div */
-    display: flex ;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
 }
 
-.header{
+.avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
 
-    grid-area: header;
-    border: 1px solid black;
+.avatar-large {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
 
 }
+
