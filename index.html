@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electron</title>
+    <!-- for fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -20,9 +24,9 @@
     <div class="sidebar">
         <ul >
         <li>
-            <a>Avatar</a></li>
+            <a href="#avatar">Avatar</a></li>
             <li>
-                <a href="#avatar">Avatar</a></li>
+                <a href="#alert">Alert</a></li>
                 <li>
                     <a>Avatar</a></li>
         </ul>
@@ -37,12 +41,14 @@
                 &lt; link will go here &gt;
             </div>
         </div>
+
+        <!-- AVATAR-START -->
         <div id="avatar" class="main-inner">
             <h1 class="inner-heading">Avatar</h1>
-            <p>In computing, an avatar (also known as a profile picture or userpic) is a graphical representation of a user or the user's character or persona. It may take either a two-dimensional form as an icon in Internet forums and other online communities or a three-dimensional form, as in games or virtual worlds</p>
+            <p>An avatar (also known as a profile picture or userpic) is a graphical representation of a user or the user's character or persona.</p>
             <img class="avatar" src="https://picsum.photos/200.jpg">
           
-            <!-- <img class="avatar-large" src="https://picsum.photos/200.jpg"> -->
+          
             <div class="show-code">
                 &lt; img class="avatar" src="https://picsum.photos/200.jpg" &gt;
             </div>
@@ -51,18 +57,98 @@
             <div class="show-code">
                 &lt; img class="avatar-large" src="https://picsum.photos/200.jpg" &gt;
             </div>
-         
-
-    
-           
-            
+             
         </div>
-<!-- 
-        <div>
-        <h1>Buttons</h1>
-        <h1>This is a primary Button which can be used in projects  </h1>
-        <button class="btnPrimary">Primary Button</button>
-        </div> -->
+        <!-- AVATAR END -->
+
+        <!-- ALERT-START -->
+        <div id = "alert" class="main-inner">
+            <h1>Alert</h1>
+           
+            <p>Alert messages can be used to notify the user about something special: danger, success, information or warning.</p>
+           
+            <div class="alert-normal">
+               <p>I am a normal alert</p> 
+            </div>
+
+            <div class="alert-success">
+              <p>Success!! I am a success alert</p> 
+            </div>
+
+            <div class="alert-danger">
+               <p>Danger!! I am a danger alert
+            </p>
+            </div>
+
+            <div class="alert-info">
+                <p>Info!! I am an information alert
+             </p>
+             </div>
+            
+             <div class="alert-warning">
+                <p>Warning!! I am a warning alert.Pay attention to me
+             </p>
+             </div>
+
+
+             <div class="show-code">
+                &lt; div class="alert-normal">
+                &lt;p&gt;I am a normal alert
+                &lt;/p&gt;
+                &lt;/div&gt;
+            </div>
+
+
+            <div class="show-code">
+                &lt; div class="alert-success">
+                &lt;p&gt;Success!! I am a success alert
+                &lt;/p&gt;
+                &lt;/div&gt;
+            </div>
+
+
+            <div class="show-code">
+                &lt; div class="alert-danger">
+                &lt;p&gt;Danger!! I am a danger alert
+                &lt;/p&gt;
+                &lt;/div&gt;
+            </div>
+
+            <div class="show-code">
+                &lt; div class="alert-info">
+                &lt;p&gt;Info!! I am an information alert
+                &lt;/p&gt;
+                &lt;/div&gt;
+            </div>
+
+            <div class="show-code">
+                &lt; div class="alert-warning">
+                &lt;p&gt;Warning!! I am a warning alert.Pay attention to me
+                &lt;/p&gt;
+                &lt;/div&gt;
+            </div>
+           <!-- ALERT END -->
+
+
+           <!-- <i  class="badge-container material-icons">insert_chart</i> -->
+           <!-- BADGE START -->
+            <!-- <div id = "badges">
+              <h1>Badges</h1>
+              <p>Badges scale to match the size of the immediate parent element</p>
+              
+              <div class="badge-container">
+                <i class="large material-icons">account_circle
+                    <span class="badge-one">3</span>
+                    </i>
+              </div>
+
+            </div> -->
+
+
+
+        
+        </div>
+
 
     </div>
 </div>
