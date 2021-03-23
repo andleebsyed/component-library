@@ -1,0 +1,115 @@
+body{
+    --primary-background-color : #2563EB ;
+    --text-color : white ;
+    --secondary-background-color : #6B7280 ;
+    --danger-background-color : #DC2626 ;
+    --success-background-color : #10B981 ;
+    --warning-background-color : #FCD34D ;
+    --icon-background-color : #FECACA ;
+    --float-background-color : rgb(95, 199, 173);
+}
+.button-primary{
+    outline: none;
+    padding: 0.5rem ;
+    margin: 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    background-color: var(--primary-background-color);
+    color : var(--text-color) ; 
+
+}
+
+
+.button-secondary{
+    outline: none;
+    padding: 0.5rem ;
+    margin: 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    background-color: var(--secondary-background-color);
+    color : var(--text-color) ; 
+
+}
+
+
+.button-danger{
+
+    outline: none;
+    padding: 0.5rem ;
+    margin: 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    background-color: var(--danger-background-color);
+    color : var(--text-color) ; 
+
+}
+
+.button-success{
+
+    outline: none;
+    padding: 0.5rem ;
+    margin: 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    background-color: var(--success-background-color);
+    color : var(--text-color) ;
+
+}
+
+
+.button-warning{
+
+    outline: none;
+    padding: 0.5rem ;
+    margin: 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    background-color: var(--warning-background-color);
+}
+
+
+.button-icon{
+  position: relative;
+  /* bottom: 2rem; */
+    outline: none;
+    padding: 0.5rem ;
+    margin: 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    background-color: var(--icon-background-color);
+
+}
+
+.inside-icon-button{
+    position: relative;
+    /* font-size: large; */
+    position: relative;
+    top:.4rem;
+
+}
+
+.button-outline{
+    border: 1px solid var(--success-background-color);
+    color : var(--success-background-color) ; 
+    outline: none;
+    padding: 0.5rem ;
+    margin: 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    /* background-color: var(--warning-background-color); */
+
+}
+
+
+.button-float{
+    position : fixed;
+    bottom: 40px;
+    right: 5px;
+    background-color: var(--float-background-color);
+    COLOR : var(--text-color) ;
+    outline: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+}
