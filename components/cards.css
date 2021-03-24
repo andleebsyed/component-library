@@ -117,7 +117,7 @@ color: black;
 
 .card-horizontal{
     position: relative;
-    width: 500px;
+    width: 800px;
     /* height: 200px; */
     border: 1px solid black;
     margin: 2rem;
@@ -141,7 +141,6 @@ color: black;
     width: 40px;
     border-radius: 50%;
     font-size: 16px;
-    color : var(--shadow-color) ;
     background-color: var(--card-horizontal-button-background-color);
     color : var(--card-horizontal-button-color);
     border : none;
