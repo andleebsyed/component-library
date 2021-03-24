@@ -16,3 +16,9 @@
     color : black ;
 
 }
+
+li :hover{
+color : blue ;
+font-size: large;
+font-weight: bold ;
+}
