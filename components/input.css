@@ -1,0 +1,25 @@
+body{
+    --input-box-border-color : #3B82F6 ; 
+}
+.input-search{
+    border: 1px solid var(--input-box-border-color) ;
+    border-radius: 5px ;
+    outline: none;
+}
+
+
+.input-box-span{
+  outline: none;
+  background-color: transparent ;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  position : relative ;
+  top : 0.3rem ;
+  cursor: pointer;
+ 
+}
+
+.icon-color{
+ color : var(--input-box-border-color);
+}
