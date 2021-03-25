@@ -12,9 +12,16 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-<div class= "main">
+<div class= "main" id = "top">
     <div class="header">
-        <h1 class="logo">Electron UI</h1>
+        <div class="logo-container">
+            <h1 >Electron UI</h1>
+            <i
+            class="material-icons logo">adjust
+                </i>
+            <!-- <img class = "logo-image" src="./images/logo.svg"> -->
+        </div>
+        
        <ul class = "header-list">
            <li>Home</li>
            <li>Documentation</li>
@@ -22,30 +29,48 @@
            <li>Contact</li>
        </ul>
     </div>
+    <div><hr></div>
     <div class="sidebar">
         
-        <ul>
-        
-            <li>
-                <a class = "list-item" href="#avatars">Avatar</a>
-            </li>
+        <ul class="sidebar-list">
+            <div class="list-item-container">
+                <li class="list-item">
+                    <a class = "list-item-link" href="#avatars">Avatar</a>
+                </li>
+            </div>
+            <div class="list-item-container">
+                <li class="list-item">
+                    <a class = "list-item-link" href="#alerts">Alert</a>
+                </li>
+            </div>
             
-            <li>
-                <a class = "list-item" href="#alerts">Alert</a>
-            </li>
-            
-            <li>
-                <a class = "list-item" href="#badges">Badges</a>
-            </li>
+            <div class="list-item-container">
+                
+                <li class="list-item">
+                    <a class = "list-item-link" href="#badges">Badges</a>
+                </li>
+            </div>
+
+            <div class="list-item-container">
            
-            <li>
-                <a class = "list-item" href="#buttons">Buttons</a>
-            </li>
+                <li class="list-item">
+                    <a class = "list-item-link" href="#buttons">Buttons</a>
+                </li>
+            </div>
 
+            <div class="list-item-container">
 
-            <li>
-                <a class = "list-item" href="#cards">Cards</a>
-            </li>
+                <li class="list-item">
+                    <a class = "list-item-link" href="#cards">Cards</a>
+                </li>
+            </div>
+            
+            <div class="list-item-container">
+
+                <li class="list-item">
+                    <a class = "list-item-link" href="#input">Input</a>
+                </li>
+            </div>
        
         </ul>
 
@@ -61,6 +86,7 @@
             </div>
         </div>
 
+        <!-- <hr> -->
 
         <!-- AVATAR-START -->
         <div id="avatars" class="main-inner">
@@ -83,7 +109,7 @@
              
         </div>
         <!-- AVATAR END -->
-
+        <!-- <hr> -->
         <!-- ALERT-START -->
         <div id = "alerts" class="main-inner">
             <h1>Alert</h1>
@@ -277,9 +303,14 @@
 
             <button class="button-outline">Border only Button</button>
             
-            <button class="button-float">
-             +
-            </button>
+            <a href="#top">
+                <button class="button-float">
+                    <i
+                    class="material-icons">keyboard_arrow_up
+                        </i>
+                </button>
+            </a>
+        </form>
            <!-- show code on website -->
             <div class="show-code">
                 &lt;button class="button-primary"&gt;Primary Button&lt;/button&gt;
@@ -318,8 +349,11 @@
 
             <div class="show-code">
                 &lt;button class="button-float"&gt;
-                    +
-                    &lt;/button&gt;
+                    &lt;i
+                    class="material-icons"&gt;keyboard_arrow_up
+                        &lt;/i&gt;
+                &lt;/button&gt;
+                    
             </div>
 
          </div>
@@ -437,21 +471,45 @@
 
 
 <!-- INPUT START -->
-<div class="main-inner">
-    <div id = "input">
-        <h1>Input and text Area</h1>
-        <p>Input elements are used to get the dynamic responses from the user.</p>
-        
-        <div class="input-search-container">
-            <input type="text" class="input-search">
-            <span class="input-box-span">
-                <i class="material-icons icon-color">search</i>
-            </span>
-        </div>
-       
+<div class="main-inner" id = "input">
+    
+    <h1>Input</h1>
+    <p>Input elements are used to get the dynamic responses from the user.</p>
+    
+    <div class="simple-input-box">
+        <input type="text" class="input-search" placeholder="Name">
+    </div>
 
+    <div class="simple-input-box">
+        <input type="text" class="input-search" placeholder="Username">
+    </div>
+
+
+    
+    <div class="show-code">
+
+          
+        &lt;div class="simple-input-box"&gt;
+            &lt;input type="text" class="input-search" placeholder="Name"&gt;
+        &lt;/div&gt;
 
     </div>
+
+
+    
+    <div class="show-code">
+
+          
+        &lt;div class="simple-input-box"&gt;
+            &lt;input type="text" class="input-search" placeholder="Username"&gt;
+        &lt;/div&gt;
+
+    </div>
+    
+    
+
+
+   
 
 </div>
 

@@ -1,25 +1,17 @@
 body{
-    --input-box-border-color : #3B82F6 ; 
+    --input-box-background-color : 
+    #D1FAE5; 
 }
 .input-search{
-    border: 1px solid var(--input-box-border-color) ;
+    margin: 1rem;
+    padding: 0.5rem;
     border-radius: 5px ;
+    height: 45px;
+    font-size: 15px;
+    width: 250px;
+    border: none;
     outline: none;
+    background-color: var(--input-box-background-color);
+
 }
 
-
-.input-box-span{
-  outline: none;
-  background-color: transparent ;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem;
-  position : relative ;
-  top : 0.3rem ;
-  cursor: pointer;
- 
-}
-
-.icon-color{
- color : var(--input-box-border-color);
-}
