@@ -49,8 +49,13 @@ body{
 
 }
 .main-inner{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
+    padding: 0.5rem;
+    border: 1px solid black;
+    margin: 2rem;
+    box-shadow: 0px 0px 20px 0px var(--shadow-color);
+    border-radius: 5px;
 }
 
 .show-code{

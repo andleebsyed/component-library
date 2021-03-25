@@ -1,4 +1,8 @@
 
+body{
+    --list-background-color :  #10B981 ;
+    --list-color : white ;
+}
 .sidebar{
     grid-area: sidebar;
     border-right: 1px solid black ;
@@ -6,6 +10,7 @@
 
 .sidebar ul{
     list-style: none;
+
 }
 .sidebar li{
     padding: 0.5rem;
@@ -18,7 +23,12 @@
 }
 
 li :hover{
-color : blue ;
-font-size: large;
-font-weight: bold ;
+    
+    color :var(--list-color);
+    font-size: large;
+    padding: 0.5rem;
+    background-color: var(--list-background-color);
+    border-radius: 5px;
+
+    font-weight: bold ;
 }
