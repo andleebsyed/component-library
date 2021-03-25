@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electron</title>
+    <!-- for fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+  <link rel="stylesheet" href="./style/components.css">
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class= "main" id = "top">
+    <div class="header">
+        <div class="logo-container">
+            <h1 >Electr<i
+                class="material-icons logo">adjust
+                    </i><span class="span-n">n</span> <span class="span-ui">UI</span></h1>
+           
+        </div>
+        
+       <ul class = "header-list">
+           <div class="list-item-container">
+                <li class="list-item">
+                    <a class = "list-item-link" href="./index.html">
+                        Home   
+                    </a>
+                </li>
+            </div>
+            <div class="list-item-container">
+                <li class="list-item">
+                    <a class = "list-item-link" href="#">
+                      Documentation  
+                    </a>
+                </li>
+            </div>
+            <div class="list-item-container">
+                <li class="list-item">
+                    <a class = "list-item-link" href="#">
+                        About   
+                    </a>
+                </li>
+            </div>
+            <div class="list-item-container">
+                <li class="list-item">
+                    <a class = "list-item-link" href="#">
+                        Contact   
+                    </a>
+                </li>
+            </div>
+       </ul>
+    </div>
+    <div><hr></div>
+    <div class="sidebar">
+        
+        <ul class="sidebar-list">
+            <div class="list-item-container">
+                <li class="list-item">
+                    <a class = "list-item-link" href="#start">How To?</a>
+                </li>
+                <li class="list-item">
+                    <a class = "list-item-link" href="#avatars">Avatar</a>
+                </li>
+            </div>
+            <div class="list-item-container">
+                <li class="list-item">
+                    <a class = "list-item-link" href="#alerts">Alert</a>
+                </li>
+            </div>
+            
+            <div class="list-item-container">
+                
+                <li class="list-item">
+                    <a class = "list-item-link" href="#badges">Badges</a>
+                </li>
+            </div>
+
+            <div class="list-item-container">
+           
+                <li class="list-item">
+                    <a class = "list-item-link" href="#buttons">Buttons</a>
+                </li>
+            </div>
+
+            <div class="list-item-container">
+
+                <li class="list-item">
+                    <a class = "list-item-link" href="#cards">Cards</a>
+                </li>
+            </div>
+            
+            <div class="list-item-container">
+
+                <li class="list-item">
+                    <a class = "list-item-link" href="#input">Input</a>
+                </li>
+            </div>
+       
+        </ul>
+
+    </div>
+    
+    <div class="main-outer">
+        <div class="main-inner" id = "start">
+
+            <h1>Welcome to Electron UI</h1>
+            <p>To use Electron in your project you need to import it</p>
+            <div class="show-code">
+                &lt; link will go here &gt;
+            </div>
+        </div>
+
+        <!-- <hr> -->
+
+        <!-- AVATAR-START -->
+        <div id="avatars" class="main-inner">
+            <h1 class="inner-heading">Avatar</h1>
+            <p>An avatar (also known as a profile picture or userpic) is a graphical representation of a user or the user's character or persona.</p>
+            <img class="avatar" src="https://picsum.photos/200.jpg">
+          
+            
+            <img class="avatar-large" src="https://picsum.photos/200.jpg">
+           
+          
+            <div class="show-code">
+                &lt; img class="avatar" src="https://picsum.photos/200.jpg" &gt;
+            </div>
+
+          
+            <div class="show-code">
+                &lt; img class="avatar-large" src="https://picsum.photos/200.jpg" &gt;
+            </div>
+             
+        </div>
+        <!-- AVATAR END -->
+        <!-- <hr> -->
+        <!-- ALERT-START -->
+        <div id = "alerts" class="main-inner">
+            <h1>Alert</h1>
+           
+            <p>Alert messages can be used to notify the user about something special: danger, success, information or warning.</p>
+           
+            <div class="alert-normal">
+               <p>I am a normal alert</p> 
+            </div>
+
+            <div class="alert-success">
+              <p>Success!! I am a success alert</p> 
+            </div>
+
+            <div class="alert-danger">
+               <p>Danger!! I am a danger alert
+            </p>
+            </div>
+
+            <div class="alert-info">
+                <p>Info!! I am an information alert
+             </p>
+             </div>
+            
+             <div class="alert-warning">
+                <p>Warning!! I am a warning alert.Pay attention to me
+             </p>
+             </div>
+
+
+             <div class="show-code">
+                &lt; div class="alert-normal">
+                &lt;p&gt;I am a normal alert
+                &lt;/p&gt;
+                &lt;/div&gt;
+            </div>
+
+
+            <div class="show-code">
+                &lt; div class="alert-success">
+                &lt;p&gt;Success!! I am a success alert
+                &lt;/p&gt;
+                &lt;/div&gt;
+            </div>
+
+
+            <div class="show-code">
+                &lt; div class="alert-danger">
+                &lt;p&gt;Danger!! I am a danger alert
+                &lt;/p&gt;
+                &lt;/div&gt;
+            </div>
+
+            <div class="show-code">
+                &lt; div class="alert-info">
+                &lt;p&gt;Info!! I am an information alert
+                &lt;/p&gt;
+                &lt;/div&gt;
+            </div>
+
+            <div class="show-code">
+                &lt; div class="alert-warning">
+                &lt;p&gt;Warning!! I am a warning alert.Pay attention to me
+                &lt;/p&gt;
+                &lt;/div&gt;
+            </div>
+        </div>
+           <!-- ALERT END -->
+
+
+        <!-- BADGE START -->
+        <div id = "badges" class="main-inner">
+            <h1>Badges</h1>
+            <p>Badges are used to add additional information to any content.</p>
+
+            <div class="badge-container">
+            <i
+            class="material-icons">account_circle
+                </i>
+                <div class="badge-one">3</div>
+            </div>
+
+            <div class="badge-container">    
+                <i
+                class="material-icons">add_shopping_cart
+                    </i>
+                    <div class="badge-two">6</div>
+            </div>
+            
+            <div class="badge-container">
+                <i
+                class="material-icons">assignment
+                    </i>
+                    <div class="badge-three">1</div>
+            </div>
+
+            <div class="badge-container">  
+                <img class="avatar" src="https://picsum.photos/200.jpg">
+                <div class="badge-avatar">1</div>
+            </div>
+
+            
+            
+            <div class="show-code">
+                
+                &lt;div class="badge-container"&gt;
+                &lt;i
+                    class="material-icons"&gt;
+                    account_circle
+                    
+                    &lt;/i&gt;
+                    
+                    &lt;div class="badge-one"&gt;3&lt;/div&gt;
+                    &lt;/div&gt;
+                
+            </div>
+
+
+            <div class="show-code">
+                
+                &lt;div class="badge-container"&gt;
+                &lt;i
+                    class="material-icons"&gt;
+
+                    add_shopping_cart
+                    
+                    &lt;/i&gt;
+                    
+                    &lt;div class="badge-two"&gt;6&lt;/div&gt;
+                    &lt;/div&gt;
+                
+            </div>
+
+
+
+            <div class="show-code">
+                &lt;div class="badge-container"&gt;
+                &lt;i
+                    class="material-icons"&gt;
+
+                    assignment
+                    
+                    &lt;/i&gt;
+                    
+                    &lt;div class="badge-three"&gt;1&lt;/div&gt;
+                    &lt;/div&gt;
+                
+            </div>
+
+
+
+
+            <div class="show-code">
+                
+                &lt;div class="badge-container"&gt;
+                &lt;img class="avatar" src="https://picsum.photos/200.jpg"&gt;
+                &lt;div class="badge-avatar"&gt;1&lt;/div&gt;
+                &lt;/div&gt;
+                
+            </div>
+
+
+
+        </div>
+<!-- BADGE END -->
+
+
+<!-- BUTTONS START -->
+
+         <div id = "buttons" class="main-inner">
+             <h1>Buttons</h1>
+             <p>Button is  used to submit forms or anywhere in a document for accessible, standard button functionality.</p>
+            <button class="button-primary">Primary Button</button>
+            
+            <button class="button-secondary">Secondary Button</button>
+
+            <button class="button-danger">Danger Button</button>
+
+
+            <button class="button-success">Success Button</button>
+
+            <button class="button-warning">Warning Button</button>
+
+            <button class="button-icon">
+               
+                <i
+                class="tiny material-icons ">cancel
+                    </i>
+                    <span class="info-button-text">Cancel</span>
+            </button>
+
+            <button class="button-outline">Border only Button</button>
+            
+            <a href="#top">
+                <button class="button-float">
+                    <i
+                    class="material-icons">keyboard_arrow_up
+                        </i>
+                </button>
+            </a>
+        </form>
+           <!-- show code on website -->
+            <div class="show-code">
+                &lt;button class="button-primary"&gt;Primary Button&lt;/button&gt;
+            </div>
+
+            <div class="show-code">
+                &lt;button class="button-secondary"&gt;Secondary Button&lt;/button&gt;
+            </div>
+
+            <div class="show-code">
+                &lt;button class="button-danger"&gt;Danger Button&lt;/button&gt;
+            </div>
+
+            <div class="show-code">
+                &lt;button class="button-success"&gt;Success Button&lt;/button&gt;
+            </div>
+
+            <div class="show-code">
+                &lt;button class="button-warning"&gt;Warning Button&lt;/button&gt;
+            </div>
+
+            <div class="show-code">
+                &lt;button class="button-icon"&gt;
+               
+                    Cancel
+                    &lt;i
+                    class="small material-icons inside-icon-button"&gt;cancel
+                    &lt;/i&gt;
+                    &lt;/button&gt;
+            </div>
+
+            <div class="show-code">
+            &lt;button class="button-outline"&gt;Border only Button&lt;/button&gt;
+            </div>
+
+
+            <div class="show-code">
+                &lt;button class="button-float"&gt;
+                    &lt;i
+                    class="material-icons"&gt;keyboard_arrow_up
+                        &lt;/i&gt;
+                &lt;/button&gt;
+                    
+            </div>
+
+         </div>
+<!-- BUTTONS END -->
+
+<!-- CARDS START -->
+<div class="main-inner">
+    <div id = "cards">
+        <h1>Cards</h1>
+        <p>A card is a bordered box with some padding around its content. It includes options for headers, footers, content, colors, etc.</p>
+        <div class="cards">
+            <div class="card-simple">
+                <h1>Simple Heading</h1>
+                <hr class="hr-bold">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet diam sit amet tempor iaculis. Maecenas pellentesque mattis mollis. Fusce ac arcu facilisis, posuere mi id, feugiat eros. Aenean hendrerit tincidunt nibh vitae viverra. Pellentesque in eros gravida, ullamcorper orci ut, dictum erat. Proin dignissim ex sit amet dolor blandit viverra. Mauris vitae interdum ante. Vivamus et nulla magna.</p>
+                <button class="card-simple-button">X</button>
+            </div>
+
+            <div class="card-badge">
+                <img class="" src="https://picsum.photos/250.jpg">
+               
+                <div class="badge">Trending</div>
+                <div class="card-badge-content">
+                    <p class="bold">Highlander Casual Shirt</p>
+                    <p>Slim Fit Casual Shirt</p>
+                    <span class="bold">Rs 579 </span><span class="strike-through">Rs. 999</span>
+                    <span class="discount">(42% OFF)</span>
+                </div>     
+               
+            </div>
+
+            <div class="card-overlay">
+                <img class="" src="https://picsum.photos/250.jpg">
+                <p class="card-overlay-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet diam sit amet tempor iaculis. Maecenas pellentesque mattis mollis. Fusce ac arcu facilisis, posuere mi id, feugiat eros. </p>
+
+                <p class="overlay-left">This is an overlay Text</p>
+               
+                <p class="overlay-top">This is an overlay Text</p>
+           </div>
+           
+           <div class="card-horizontal">
+                <img src="https://picsum.photos/800/300.jpg">
+                <p class="card-horizontal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet diam sit amet tempor iaculis. Maecenas pellentesque mattis mollis. Fusce ac arcu facilisis, posuere mi id, feugiat eros. </p>
+                <button class="button-card-horizontal">
+                    X
+                </button>
+            </div>
+
+
+        </div>
+        
+        
+        <div class="show-code">
+            &lt;div class="card-simple"&gt;
+
+            &lt;h1&gt;Simple Heading&lt;/h1&gt;
+            
+            &lt;hr class="hr-bold"&gt;
+            
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet diam sit amet tempor iaculis. Maecenas pellentesque mattis mollis. Fusce ac arcu facilisis, posuere mi id, feugiat eros. Aenean hendrerit tincidunt nibh vitae viverra. Pellentesque in eros gravida, ullamcorper orci ut, dictum erat. Proin dignissim ex sit amet dolor blandit viverra. Mauris vitae interdum ante. Vivamus et nulla magna.&lt;/p&gt;
+            
+            &lt;button class="card-simple-button"&gt;X&lt;/button&gt;
+            
+            &lt;/div&gt;
+        </div>
+
+
+        <div class="show-code">
+            
+            
+            &lt;div class="card-badge"&gt;
+                &lt;img class="" src="https://picsum.photos/250.jpg"&gt;
+               
+                &lt;div class="badge"&gt;Trending&lt;/div&gt;
+                &lt;div class="card-badge-content"&gt;
+                    &lt;p class="bold"&gt;Highlander Casual Shirt&lt;/p&gt;
+                    &lt;p&gt;Slim Fit Casual Shirt&lt;/p&gt;
+                    &lt;span class="bold"&gt;Rs 579 &lt;/span&gt;&lt;span class="strike-through"&gt;Rs. 999&lt;/span&gt;
+                    &lt;span class="discount"&gt;(42% OFF)&lt;/span&gt;
+                &lt;/div&gt;     
+               
+            &lt;/div&gt;
+        </div>
+
+
+        <div class="show-code">
+            
+            &lt;div class="card-overlay"&gt;
+                &lt;img class="" src="https://picsum.photos/250.jpg"&gt;
+                &lt;p class="card-overlay-text"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet diam sit amet tempor iaculis. Maecenas pellentesque mattis mollis. Fusce ac arcu facilisis, posuere mi id, feugiat eros. &lt;/p&gt;
+
+                &lt;p class="overlay-left"&gt;This is an overlay Text&lt;/p&gt;
+               
+                &lt;p class="overlay-top"&gt;This is an overlay Text&lt;/p&gt;
+           &lt;/div&gt;
+
+        </div>
+
+
+        <div class="show-code">
+            &lt;div class="card-horizontal"&gt;
+                &lt;img src="https://picsum.photos/500/300.jpg"&gt;
+                &lt;p class="card-horizontal-text"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet diam sit amet tempor iaculis. Maecenas pellentesque mattis mollis. Fusce ac arcu facilisis, posuere mi id, feugiat eros. &lt;/p&gt;
+                &lt;button class="button-card-horizontal"&gt;
+                    X
+                &lt;/button&gt;
+            &lt;/div&gt;
+           
+
+        </div>
+
+    </div>
+</div>
+<!-- CARDS END -->
+
+
+<!-- INPUT START -->
+<div class="main-inner" id = "input">
+    
+    <h1>Input</h1>
+    <p>Input elements are used to get the dynamic responses from the user.</p>
+    
+    <div class="simple-input-box">
+        <input type="text" class="input-search" placeholder="Name">
+    </div>
+
+    <div class="simple-input-box">
+        <input type="text" class="input-search" placeholder="Username">
+    </div>
+
+
+    
+    <div class="show-code">
+
+          
+        &lt;div class="simple-input-box"&gt;
+            &lt;input type="text" class="input-search" placeholder="Name"&gt;
+        &lt;/div&gt;
+
+    </div>
+
+
+    
+    <div class="show-code">
+
+          
+        &lt;div class="simple-input-box"&gt;
+            &lt;input type="text" class="input-search" placeholder="Username"&gt;
+        &lt;/div&gt;
+
+    </div>
+    
+    
+
+
+   
+
+</div>
+
+<!-- INPUT END -->
+</body>
+</html>
