@@ -1,6 +1,7 @@
 body{
     --logo-color : #10B981 ;
     --white-color : white ;
+    --secondary-color : #6B7280 ;
 
 }
 
@@ -61,4 +62,13 @@ body{
     padding : 1rem ;
     border-radius: 5px;
     text-decoration: none;
+}
+
+
+.secondary-link{
+    text-decoration: none;
+    background-color : var(--secondary-color);
+    margin: 1rem;
+
+
 }
