@@ -1,61 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
-}
-
-:root{
-    /* colors will go here */
-    /* --success-alert-color :  ; */
+    --show-code-background-color : #D1D5DB ;
     --alerts-text-color : white ;
+    --main-outer-background-color: #ECFDF5;
+    --main-inner-background-color: white;
 
 }
+
+
 .main{
     display : grid ;
-    grid-template-columns: 10rem  auto ;
+    grid-template-columns: 12rem  auto ;
     grid-template-rows: 10rem  auto;
     grid-template-areas: "header header "
     "sidebar mainContent";
-    /* border: 1px solid red; */
+    background-color: var(--main-outer-background-color);
 }
+
 .header{
     grid-area: header;
+    margin-bottom: 1rem;
+    background-color: var(--main-outer-background-color);
+
+    box-shadow: 0px 0px 8px 0px var(--shadow-color);
+
+
+    
 }
 
 .logo{
     display: inline;
     margin-left : 1rem;
-    /* color : blue */
 }
 .header-list{
-    margin : 1rem;
+
+    /* margin : 1rem; */
     list-style: none;
     display: flex;
     float : right;
-    /* justify-content: space-between; */
     
  } 
 .header-list li{
-    margin : 1rem;
-    display: flex;
-    align-items: flex-end;
+
+    margin-right : 2rem;
+    font-weight: bold;
 }
 
 
 
 .main-outer{
     grid-area: mainContent;
-    /* border: 1px solid blue; */
+    background-color: var(--main-outer-background-color);
+
 
 
 }
 .main-inner{
-    /* margin-left: 1rem; */
-    /* margin-right: 1rem; */
     padding: 0.5rem;
     border: 1px solid black;
     margin: 2rem;
-    box-shadow: 0px 0px 20px 0px var(--shadow-color);
+    box-shadow: 0px 0px 8px 0px var(--shadow-color);
     border-radius: 5px;
+    background-color: var(--main-inner-background-color);
 }
 
 .show-code{
@@ -64,7 +77,7 @@ body{
     margin : 1rem ;
     padding-left: 2rem;
     padding-right: 2rem;
-    background-color: #D1D5DB;
+    background-color: var(--show-code-background-color) ;
     display: flex; 
     align-items: center;
     justify-content: center;
