@@ -5,13 +5,13 @@ html{
 }
 
 body{
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
     --show-code-background-color : #D1D5DB ;
     --alerts-text-color : white ;
     --main-outer-background-color: #ECFDF5;
     --main-inner-background-color: white;
-
+    --logo-color : #10B981 ;
 }
 
 
@@ -28,40 +28,47 @@ body{
     grid-area: header;
     margin-bottom: 1rem;
     background-color: var(--main-outer-background-color);
-
-    box-shadow: 0px 0px 8px 0px var(--shadow-color);
-
-
-    
+    box-shadow: 0px 0px 8px 0px var(--shadow-color);    
+}
+.logo{
+    color : var(--logo-color);
+    /* margin-left: 0; */
+    position: relative;
+    left : -.8em;
+    right : -1em
+    /* right: 6em; */
+}
+.span-n{
+    position: relative;
+    right: 1.3rem;
 }
 
+.span-ui{
+    position: relative;
+    right: 1rem;
+    color : var(--logo-color)
+}
 .logo{
     display: inline;
     margin-left : 1rem;
 }
 .header-list{
-
-    /* margin : 1rem; */
     list-style: none;
     display: flex;
-    float : right;
-    
+    align-items: center;
+    justify-content: center;
  } 
-.header-list li{
 
-    margin-right : 2rem;
+.header-list li{
+    margin-right : 1rem;
     font-weight: bold;
 }
-
-
 
 .main-outer{
     grid-area: mainContent;
     background-color: var(--main-outer-background-color);
-
-
-
 }
+
 .main-inner{
     padding: 0.5rem;
     border: 1px solid black;
