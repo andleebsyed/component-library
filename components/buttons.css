@@ -10,6 +10,7 @@ body{
 }
 .button-primary{
     outline: none;
+    border: none;
     padding: 0.5rem ;
     margin: 1rem;
     border-radius: .3rem;
@@ -22,6 +23,7 @@ body{
 
 .button-secondary{
     outline: none;
+    border: none;
     padding: 0.5rem ;
     margin: 1rem;
     border-radius: .3rem;
@@ -35,6 +37,7 @@ body{
 .button-danger{
 
     outline: none;
+    border: none;
     padding: 0.5rem ;
     margin: 1rem;
     border-radius: .3rem;
@@ -47,6 +50,7 @@ body{
 .button-success{
 
     outline: none;
+    border: none;
     padding: 0.5rem ;
     margin: 1rem;
     border-radius: .3rem;
@@ -60,6 +64,7 @@ body{
 .button-warning{
 
     outline: none;
+    border: none;
     padding: 0.5rem ;
     margin: 1rem;
     border-radius: .3rem;
@@ -70,6 +75,7 @@ body{
 
 .button-icon{
     outline: none;
+    border: none;
     padding: 0.5rem ;
     margin: 1rem;
     border-radius: .3rem;
@@ -87,6 +93,7 @@ body{
     border: 1px solid var(--success-background-color);
     color : var(--success-background-color) ; 
     outline: none;
+    /* border: none; */
     padding: 0.5rem ;
     margin: 1rem;
     border-radius: .3rem;
@@ -105,6 +112,7 @@ body{
     background-color: var(--float-background-color);
     COLOR : var(--text-color) ;
     outline: none;
+    border: none;
     height: 60px;
     width: 60px;
     border-radius: 50%;
