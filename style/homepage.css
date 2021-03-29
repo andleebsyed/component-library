@@ -6,8 +6,6 @@ body {
 
 .logo-home {
     font-size: 8rem;
-    /* margin-left: 20rem; */
-    /* margin-bottom: 2rem; */
     color: var(--logo-color);
     display: flex;
     align-items: center;
