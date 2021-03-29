@@ -20,7 +20,7 @@ body {
 
 .homepage-body {
     background-color: var(--white-color);
-    border-radius: 5px;
+    border-radius: .5rem;
     width: 60rem;
     height: 30rem;
     display: flex;

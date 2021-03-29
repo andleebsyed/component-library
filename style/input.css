@@ -6,8 +6,8 @@ body {
 .input-search {
     margin: 1rem;
     padding: 0.5rem;
-    border-radius: 5px;
-    height: 45px;
+    border-radius: .5rem;
+    height: 3rem;
     font-size: 15px;
     width: 250px;
     border: none;
