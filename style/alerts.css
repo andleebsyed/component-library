@@ -7,48 +7,39 @@ body {
     --warning-color: #FBBF24;
 }
 
-.alert-normal {
+.alerts-common {
     margin: 1rem;
-    border: 1px solid black;
     font-weight: bold;
-    padding: 0.1rem;
     padding-left: 0.5rem;
+}
+
+.alert-normal {
+    border: 1px solid black;
+    padding: 0.1rem;
 }
 
 .alert-success {
-    margin: 1rem;
     border: 1px solid var(--success-color);
     color: var(--text-color);
-    font-weight: bold;
     background-color: var(--success-color);
-    padding-left: 0.5rem;
 }
 
 .alert-danger {
-    margin: 1rem;
     border: 1px solid var(--danger-color);
     background-color: var(--danger-color);
     color: var(--text-color);
-    font-weight: bold;
-    padding-left: 0.5rem;
 }
 
 .alert-info {
-    margin: 1rem;
     border: 1px solid var(--info-color);
     background-color: var(--info-color);
     color: var(--text-color);
-    font-weight: bold;
-    padding-left: 0.5rem;
 }
 
 .alert-warning {
-    margin: 1rem;
     border: 1px solid var(--warning-color);
     background-color: var(--warning-color);
     color: var(--text-color);
-    font-weight: bold;
-    padding-left: 0.5rem;
 }
 
 /* ALERTS END */
