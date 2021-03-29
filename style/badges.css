@@ -10,8 +10,8 @@
     left: 1.5em;
     bottom: 2.7em;
     margin-left: 0.3em;
-    height: 13px;
-    width: 13px;
+    height: 1rem;
+    width: 1rem;
     border-radius: 50%;
 }
 
@@ -32,8 +32,8 @@
 
 .badge-avatar {
     left: 3em;
-    bottom: 5em;
-    margin-left: 0.3em;
+    bottom: 4.7rem;
+    margin-left: 0.9rem;
     border-radius: 50%;
     background-color: #2563EB;
     color: white;

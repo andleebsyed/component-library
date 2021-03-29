@@ -64,14 +64,14 @@ body {
 
 .button-float {
     position: fixed;
-    bottom: 40px;
-    right: 5px;
+    bottom: 3rem;
+    right: 1rem;
     background-color: var(--float-background-color);
     COLOR: var(--text-color);
     outline: none;
     border: none;
-    height: 60px;
-    width: 60px;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
     font-size: 30px;
 }
