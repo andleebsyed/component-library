@@ -53,7 +53,7 @@ body {
     border-radius: 5px;
 }
 
-.badge {
+.trending-tag {
     padding: 0.2em;
     position: absolute;
     left: 0;
@@ -71,7 +71,7 @@ body {
     font-weight: bold;
 }
 
-.discount {
+.card-discount {
     color: var(--discount-color);
 }
 
