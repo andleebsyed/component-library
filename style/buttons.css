@@ -9,67 +9,40 @@ body {
     --float-background-color: #10B981;
 }
 
-.button-primary {
+.button {
     outline: none;
     border: none;
     padding: 0.5rem;
     margin: 1rem;
     border-radius: .3rem;
     cursor: pointer;
+}
+
+.button-primary {
     background-color: var(--primary-background-color);
     color: var(--text-color);
 }
 
 .button-secondary {
-    outline: none;
-    border: none;
-    padding: 0.5rem;
-    margin: 1rem;
-    border-radius: .3rem;
-    cursor: pointer;
     background-color: var(--secondary-background-color);
     color: var(--text-color);
 }
 
 .button-danger {
-    outline: none;
-    border: none;
-    padding: 0.5rem;
-    margin: 1rem;
-    border-radius: .3rem;
-    cursor: pointer;
     background-color: var(--danger-background-color);
     color: var(--text-color);
 }
 
 .button-success {
-    outline: none;
-    border: none;
-    padding: 0.5rem;
-    margin: 1rem;
-    border-radius: .3rem;
-    cursor: pointer;
     background-color: var(--success-background-color);
     color: var(--text-color);
 }
 
 .button-warning {
-    outline: none;
-    border: none;
-    padding: 0.5rem;
-    margin: 1rem;
-    border-radius: .3rem;
-    cursor: pointer;
     background-color: var(--warning-background-color);
 }
 
 .button-icon {
-    outline: none;
-    border: none;
-    padding: 0.5rem;
-    margin: 1rem;
-    border-radius: .3rem;
-    cursor: pointer;
     background-color: var(--icon-background-color);
 }
 
@@ -82,12 +55,6 @@ body {
 .button-outline {
     border: 1px solid var(--success-background-color);
     color: var(--success-background-color);
-    outline: none;
-    /* border: none; */
-    padding: 0.5rem;
-    margin: 1rem;
-    border-radius: .3rem;
-    cursor: pointer;
 }
 
 /* change sixe of icon */
