@@ -1,17 +1,16 @@
-body{
-    --input-box-background-color : 
-    #D1FAE5; 
+body {
+    --input-box-background-color:
+        #D1FAE5;
 }
-.input-search{
+
+.input-search {
     margin: 1rem;
     padding: 0.5rem;
-    border-radius: 5px ;
+    border-radius: 5px;
     height: 45px;
     font-size: 15px;
     width: 250px;
     border: none;
     outline: none;
     background-color: var(--input-box-background-color);
-
 }
-

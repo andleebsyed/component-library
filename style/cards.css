@@ -1,122 +1,112 @@
-body{
-    --shadow-color : grey ;
-    --badge-color : #10B981;
-    --white-text-color : white ;
-    --discount-color : #FCD34D ;
-    --card-horizontal-button-background-color : #10B981 ;
-    --card-horizontal-button-color : white;
-
+body {
+    --shadow-color: grey;
+    --badge-color: #10B981;
+    --white-text-color: white;
+    --discount-color: #FCD34D;
+    --card-horizontal-button-background-color: #10B981;
+    --card-horizontal-button-color: white;
 }
 
-.cards{
+.cards {
     display: flex;
     border: 1px solid black;
     flex-wrap: wrap;
     border-radius: 5px;
     margin: 1rem;
 }
-.card-simple{
-    margin: 2em;  
-    padding: 0.5rem;  
+
+.card-simple {
+    margin: 2em;
+    padding: 0.5rem;
     position: relative;
-   
     width: 250px;
     border: 1px solid black;
     box-shadow: 0px 0px 20px 0px var(--shadow-color);
     border-radius: 5px;
 }
 
-.hr-bold{
-height: 0.5px;
-background-color: black;
-color: black;
+.hr-bold {
+    height: 0.5px;
+    background-color: black;
+    color: black;
 }
 
-
-
-.card-simple-button{
+.card-simple-button {
     position: absolute;
-    top : 0.5em ;
+    top: 0.5em;
     right: 0.5em;
     outline: none;
     font-weight: bold;
     font-size: 16px;
-    color : var(--shadow-color) ;
+    color: var(--shadow-color);
     background-color: transparent;
-    border : none;
+    border: none;
     cursor: pointer;
 }
 
-.card-badge{
-     
-    margin: 2rem; 
+.card-badge {
+    margin: 2rem;
     position: relative;
     width: 250px;
     border: 1px solid black;
     box-shadow: 0px 0px 20px 0px var(--shadow-color);
     border-radius: 5px;
-
 }
 
-.badge{
+.badge {
     padding: 0.2em;
-    position : absolute ;
+    position: absolute;
     left: 0;
-    top : 2.5em ;
+    top: 2.5em;
     border-bottom-right-radius: 10px;
-    background-color: var(--badge-color) ;
-    color :var(--white-text-color);
-
+    background-color: var(--badge-color);
+    color: var(--white-text-color);
 }
 
-.card-badge-content{
-    padding: 0.5rem; 
-
-}
-
-.bold{
-    font-weight: bold;
-}
-.discount{
-    color : var(--discount-color);
-}
-
-.strike-through{
-    text-decoration: line-through;
-}
-
-
-.card-overlay{
-    margin: 2rem;  
-    position: relative;
-    width: 250px;
-    border: 1px solid black;
-    box-shadow: 0px 0px 20px 0px var(--shadow-color);
-    border-radius: 5px;
-
-}
-
-.card-overlay-text{
+.card-badge-content {
     padding: 0.5rem;
 }
 
-
-.overlay-left{
+.bold {
     font-weight: bold;
-    position: absolute;
-    top : 0;
-    left : 0 ;
-
 }
 
-.overlay-top{
-    font-weight: bold;
-    position: absolute;
-    top : 5em;
-    right : 0 ;
+.discount {
+    color: var(--discount-color);
 }
 
-.card-horizontal{
+.strike-through {
+    text-decoration: line-through;
+}
+
+.card-overlay {
+    margin: 2rem;
+    position: relative;
+    width: 250px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 0px var(--shadow-color);
+    border-radius: 5px;
+}
+
+.card-overlay-text {
+    padding: 0.5rem;
+}
+
+.overlay-left {
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.overlay-top {
+    font-weight: bold;
+    position: absolute;
+    top: 5em;
+    right: 0;
+}
+
+.card-horizontal {
     position: relative;
     width: 800px;
     /* height: 200px; */
@@ -124,17 +114,15 @@ color: black;
     margin: 2rem;
     border-radius: 5px;
     box-shadow: 0px 0px 20px 0px var(--shadow-color);
-
 }
 
-.card-horizontal-text{
+.card-horizontal-text {
     padding: 0.5rem;
 }
 
-
-.button-card-horizontal{
+.button-card-horizontal {
     position: absolute;
-    top : 0.5em ;
+    top: 0.5em;
     right: 0.5em;
     outline: none;
     font-weight: bold;
@@ -143,7 +131,7 @@ color: black;
     border-radius: 50%;
     font-size: 16px;
     background-color: var(--card-horizontal-button-background-color);
-    color : var(--card-horizontal-button-color);
-    border : none;
+    color: var(--card-horizontal-button-color);
+    border: none;
     cursor: pointer;
 }

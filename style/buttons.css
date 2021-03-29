@@ -1,116 +1,106 @@
-body{
-    --primary-background-color : #2563EB ;
-    --text-color : white ;
-    --secondary-background-color : #6B7280 ;
-    --danger-background-color : #DC2626 ;
-    --success-background-color : #10B981 ;
-    --warning-background-color : #FCD34D ;
-    --icon-background-color : #FECACA ;
-    --float-background-color : #10B981;
+body {
+    --primary-background-color: #2563EB;
+    --text-color: white;
+    --secondary-background-color: #6B7280;
+    --danger-background-color: #DC2626;
+    --success-background-color: #10B981;
+    --warning-background-color: #FCD34D;
+    --icon-background-color: #FECACA;
+    --float-background-color: #10B981;
 }
-.button-primary{
+
+.button-primary {
     outline: none;
     border: none;
-    padding: 0.5rem ;
+    padding: 0.5rem;
     margin: 1rem;
     border-radius: .3rem;
     cursor: pointer;
     background-color: var(--primary-background-color);
-    color : var(--text-color) ; 
-
+    color: var(--text-color);
 }
 
-
-.button-secondary{
+.button-secondary {
     outline: none;
     border: none;
-    padding: 0.5rem ;
+    padding: 0.5rem;
     margin: 1rem;
     border-radius: .3rem;
     cursor: pointer;
     background-color: var(--secondary-background-color);
-    color : var(--text-color) ; 
-
+    color: var(--text-color);
 }
 
-
-.button-danger{
-
+.button-danger {
     outline: none;
     border: none;
-    padding: 0.5rem ;
+    padding: 0.5rem;
     margin: 1rem;
     border-radius: .3rem;
     cursor: pointer;
     background-color: var(--danger-background-color);
-    color : var(--text-color) ; 
-
+    color: var(--text-color);
 }
 
-.button-success{
-
+.button-success {
     outline: none;
     border: none;
-    padding: 0.5rem ;
+    padding: 0.5rem;
     margin: 1rem;
     border-radius: .3rem;
     cursor: pointer;
     background-color: var(--success-background-color);
-    color : var(--text-color) ;
-
+    color: var(--text-color);
 }
 
-
-.button-warning{
-
+.button-warning {
     outline: none;
     border: none;
-    padding: 0.5rem ;
+    padding: 0.5rem;
     margin: 1rem;
     border-radius: .3rem;
     cursor: pointer;
     background-color: var(--warning-background-color);
 }
 
-
-.button-icon{
+.button-icon {
     outline: none;
     border: none;
-    padding: 0.5rem ;
+    padding: 0.5rem;
     margin: 1rem;
     border-radius: .3rem;
     cursor: pointer;
     background-color: var(--icon-background-color);
-
 }
+
 /* change position of text on button-info */
-.info-button-text{
+.info-button-text {
     position: relative;
     bottom: 0.4em;
 }
 
-.button-outline{
+.button-outline {
     border: 1px solid var(--success-background-color);
-    color : var(--success-background-color) ; 
+    color: var(--success-background-color);
     outline: none;
     /* border: none; */
-    padding: 0.5rem ;
+    padding: 0.5rem;
     margin: 1rem;
     border-radius: .3rem;
     cursor: pointer;
-
 }
 
 /* change sixe of icon */
-.material-icons{
+.material-icons {
     font-size: 20px;
 }
-.button-float{
-    position : fixed;
+
+.button-float {
+    position: fixed;
     bottom: 40px;
     right: 5px;
     background-color: var(--float-background-color);
-    COLOR : var(--text-color) ;
+    COLOR: var(--text-color);
     outline: none;
     border: none;
     height: 60px;

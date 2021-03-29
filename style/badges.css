@@ -1,105 +1,71 @@
-.badge-container{
+.badge-container {}
 
-
-}
-
-.badge-one{
+.badge-one {
     /* make it align in center */
     display: flex;
     align-items: center;
     justify-content: center;
-    
     font-size: 12px;
     font-weight: bold;
-
-    
     /* this does the whole thing */
     position: relative;
-    left : 1.5em; 
-    bottom  : 2.7em ;
+    left: 1.5em;
+    bottom: 2.7em;
     margin-left: 0.3em;
- 
     height: 13px;
     width: 13px;
-    border-radius : 50% ;
-
+    border-radius: 50%;
     background-color: #047857;
-    color : white ;
-  
+    color: white;
 }
 
-
-
-.badge-two{
-    
+.badge-two {
     display: flex;
     align-items: center;
     justify-content: center;
-    
     font-size: 12px;
     font-weight: bold;
-
-    
-    
     position: relative;
-    left : 1.5em; 
-    bottom  : 2.7em ;
+    left: 1.5em;
+    bottom: 2.7em;
     margin-left: 0.3em;
- 
     height: 13px;
     width: 13px;
-    border-radius : 50% ;
-
-    background-color:#DC2626;
-    color : white ;
-  
+    border-radius: 50%;
+    background-color: #DC2626;
+    color: white;
 }
 
-
-
-.badge-three{
-  
+.badge-three {
     display: flex;
     align-items: center;
     justify-content: center;
-    
     font-size: 12px;
     font-weight: bold;
-
     position: relative;
-    left : 1.5em; 
-    bottom  : 2.7em ;
+    left: 1.5em;
+    bottom: 2.7em;
     margin-left: 0.3em;
- 
     height: 13px;
     width: 13px;
-    border-radius : 50% ;
-
-    background-color:#2563EB;
-    color : white ;
-  
+    border-radius: 50%;
+    background-color: #2563EB;
+    color: white;
 }
 
-
-.badge-avatar{
-  
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     
-     font-size: 12px;
-     font-weight: bold;
-     
-     position: relative;
-     left : 3em; 
-     bottom  : 5em ;
-     margin-left: 0.3em;
-  
-     height: 13px;
-     width: 13px;
-     border-radius : 50% ;
- 
-     background-color:#2563EB;
-     color : white ;
-
+.badge-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    left: 3em;
+    bottom: 5em;
+    margin-left: 0.3em;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #2563EB;
+    color: white;
 }
