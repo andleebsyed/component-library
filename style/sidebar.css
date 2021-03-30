@@ -24,14 +24,22 @@ body {
 .list-item :hover {
     transition: 0.5s;
     color: var(--list-color);
-    border-radius: 10px;
+    background-color: var(--list-background-color);
+}
+
+.list-item :focus {
     background-color: var(--list-background-color);
 }
 
 .list-item-link {
+    border-radius: 10px;
     text-decoration: none;
     padding: 1rem;
     min-width: 80px;
     color: black;
     font-weight: bold;
+}
+
+.list-item-link :visited {
+    background-color: var(--list-background-color);
 }
