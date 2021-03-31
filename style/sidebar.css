@@ -1,0 +1,46 @@
+body {
+    --list-background-color: #10B981;
+    --list-color: white;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    border-right: 1px solid black;
+}
+
+.sidebar-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+}
+
+.list-item {
+    padding: 1rem;
+    min-width: 100px;
+}
+
+.list-item :hover {
+    transition: 0.5s;
+    color: var(--list-color);
+    background-color: var(--list-background-color);
+}
+
+.list-item :focus {
+    background-color: var(--list-background-color);
+}
+
+.list-item-link {
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1rem;
+    min-width: 80px;
+    color: black;
+    font-weight: bold;
+}
+
+/* not working as of now::will solve this */
+/* .list-item-link :visited {
+    background-color: var(--list-background-color);
+} */

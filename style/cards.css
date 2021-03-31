@@ -1,0 +1,137 @@
+body {
+    --shadow-color: grey;
+    --badge-color: #10B981;
+    --white-text-color: white;
+    --discount-color: #FCD34D;
+    --card-horizontal-button-background-color: #10B981;
+    --card-horizontal-button-color: white;
+}
+
+.cards {
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    border-radius: .5rem;
+    margin: 1rem;
+}
+
+.card-simple {
+    margin: 2em;
+    padding: 0.5rem;
+    position: relative;
+    width: 250px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 0px var(--shadow-color);
+    border-radius: 5px;
+}
+
+.hr-bold {
+    height: 0.1rem;
+    background-color: black;
+    color: black;
+}
+
+.card-simple-button {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--shadow-color);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.card-badge {
+    margin: 2rem;
+    position: relative;
+    width: 250px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 0px var(--shadow-color);
+    border-radius: 5px;
+}
+
+.trending-tag {
+    padding: 0.2em;
+    position: absolute;
+    left: 0;
+    top: 2.5em;
+    border-bottom-right-radius: 10px;
+    background-color: var(--badge-color);
+    color: var(--white-text-color);
+}
+
+.card-badge-content {
+    padding: 0.5rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.card-discount {
+    color: var(--discount-color);
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+.card-overlay {
+    margin: 2rem;
+    position: relative;
+    width: 250px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 0px var(--shadow-color);
+    border-radius: .5rem;
+}
+
+.card-overlay-text {
+    padding: 0.5rem;
+}
+
+.overlay-left {
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.overlay-top {
+    font-weight: bold;
+    position: absolute;
+    top: 5em;
+    right: 0;
+}
+
+.card-horizontal {
+    position: relative;
+    width: 800px;
+    /* height: 200px; */
+    border: 1px solid black;
+    margin: 2rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px var(--shadow-color);
+}
+
+.card-horizontal-text {
+    padding: 0.5rem;
+}
+
+.button-card-horizontal {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    outline: none;
+    font-weight: bold;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 16px;
+    background-color: var(--card-horizontal-button-background-color);
+    color: var(--card-horizontal-button-color);
+    border: none;
+    cursor: pointer;
+}

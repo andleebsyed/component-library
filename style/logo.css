@@ -1,0 +1,21 @@
+body {
+    --logo-color: #10B981;
+}
+
+.logo {
+    color: var(--logo-color);
+    position: relative;
+    left: -.8em;
+    right: -1em;
+    display: inline;
+    margin-left: 1rem;
+}
+
+.span-n {
+    position: relative;
+    right: 1.3rem;
+}
+
+.span-ui {
+    color: var(--logo-color)
+}

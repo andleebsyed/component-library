@@ -3,236 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electron</title>
-    <!-- for fonts -->
+    <title>Electron | Home</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-<div class= "main">
-    <div class="header">
-        <h1 class="logo">Electron UI</h1>
-       <ul class = "header-list">
-           <li>Home</li>
-           <li>Documentation</li>
-           <li>About</li>
-           <li>Contact</li>
-       </ul>
-    </div>
-    <div class="sidebar">
-        <ul >
-        <li>
-            <a href="#avatar">Avatar</a></li>
-            <li>
-                <a href="#alert">Alert</a></li>
-                <li>
-                    <a href="#badges">Badges</a></li>
-        </ul>
-    </div>
-    
-    <div class="main-outer">
-        <div class="main-inner">
-
-            <h1>Welcome to Electron UI</h1>
-            <p>To use Electron in your project you need to import it</p>
-            <div class="show-code">
-                &lt; link will go here &gt;
+    <div class="main" id="top">
+        <div class="header-homepage">
+            <div class="logo-container">
+                <h1>Electron
+                    <span class="span-ui">UI</span>
+                </h1>
+            </div>
+            <i class="logo-home material-icons ">adjust
+            </i>
+            <ul class="header-list">
+                <div class="list-item-container">
+                    <li class="list-item">
+                        <a class="list-item-link" href="./index.html">
+                            Home
+                        </a>
+                    </li>
+                </div>
+                <div class="list-item-container">
+                    <li class="list-item">
+                        <a class="list-item-link" href="./components.html">
+                            Documentation
+                        </a>
+                    </li>
+                </div>
+                <div class="list-item-container">
+                    <li class="list-item">
+                        <a class="list-item-link" href="#">
+                            About
+                        </a>
+                    </li>
+                </div>
+                <div class="list-item-container">
+                    <li class="list-item">
+                        <a class="list-item-link" href="#">
+                            Contact
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        <div class="homepage-body">
+            <div class="homepage-intro">
+                <h1 class="homepage-heading">Welcome to Electron UI.</h1>
+                <p class="homepage-content">There are so much worries in Life.
+                    We will ensure that CSS won't be one of them.</p>
+                <p class="homepage-content">To help you we have predefined components which you can seamlessly use in
+                    your projects</p>
+                <p class="homepage-content">Sounds about Right?</p>
+                <p class="homepage-content">Alright then-Let's get started 👇</p>
+                <div class="list-item-container">
+                    <div class="list-item">
+                        <a class="homepage-doc-link" href="./components.html">
+                            Documentation
+                        </a>
+                        <a class="homepage-doc-link secondary-link"
+                            href="https://github.com/andleebsyed/component-library">
+                            Github
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-        <!-- AVATAR-START -->
-        <div id="avatar" class="main-inner">
-            <h1 class="inner-heading">Avatar</h1>
-            <p>An avatar (also known as a profile picture or userpic) is a graphical representation of a user or the user's character or persona.</p>
-            <img class="avatar" src="https://picsum.photos/200.jpg">
-          
-          
-            <div class="show-code">
-                &lt; img class="avatar" src="https://picsum.photos/200.jpg" &gt;
-            </div>
-            <img class="avatar-large" src="https://picsum.photos/200.jpg">
-           
-            <div class="show-code">
-                &lt; img class="avatar-large" src="https://picsum.photos/200.jpg" &gt;
-            </div>
-             
-        </div>
-        <!-- AVATAR END -->
-
-        <!-- ALERT-START -->
-        <div id = "alert" class="main-inner">
-            <h1>Alert</h1>
-           
-            <p>Alert messages can be used to notify the user about something special: danger, success, information or warning.</p>
-           
-            <div class="alert-normal">
-               <p>I am a normal alert</p> 
-            </div>
-
-            <div class="alert-success">
-              <p>Success!! I am a success alert</p> 
-            </div>
-
-            <div class="alert-danger">
-               <p>Danger!! I am a danger alert
-            </p>
-            </div>
-
-            <div class="alert-info">
-                <p>Info!! I am an information alert
-             </p>
-             </div>
-            
-             <div class="alert-warning">
-                <p>Warning!! I am a warning alert.Pay attention to me
-             </p>
-             </div>
-
-
-             <div class="show-code">
-                &lt; div class="alert-normal">
-                &lt;p&gt;I am a normal alert
-                &lt;/p&gt;
-                &lt;/div&gt;
-            </div>
-
-
-            <div class="show-code">
-                &lt; div class="alert-success">
-                &lt;p&gt;Success!! I am a success alert
-                &lt;/p&gt;
-                &lt;/div&gt;
-            </div>
-
-
-            <div class="show-code">
-                &lt; div class="alert-danger">
-                &lt;p&gt;Danger!! I am a danger alert
-                &lt;/p&gt;
-                &lt;/div&gt;
-            </div>
-
-            <div class="show-code">
-                &lt; div class="alert-info">
-                &lt;p&gt;Info!! I am an information alert
-                &lt;/p&gt;
-                &lt;/div&gt;
-            </div>
-
-            <div class="show-code">
-                &lt; div class="alert-warning">
-                &lt;p&gt;Warning!! I am a warning alert.Pay attention to me
-                &lt;/p&gt;
-                &lt;/div&gt;
-            </div>
-        </div>
-           <!-- ALERT END -->
-
-
-        <!-- BADGE START -->
-        <div id = "badges" class="main-inner">
-            <h1>Badges</h1>
-            <p>Badges scale to match the size of the immediate parent element</p>
-
-            <div class="badge-container">
-            <i
-            class="material-icons">account_circle
-                </i>
-                <div class="badge-one">3</div>
-            </div>
-
-            <div class="badge-container">    
-                <i
-                class="material-icons">add_shopping_cart
-                    </i>
-                    <div class="badge-two">6</div>
-            </div>
-            
-            <div class="badge-container">
-                <i
-                class="material-icons">assignment
-                    </i>
-                    <div class="badge-three">1</div>
-            </div>
-
-            <div class="badge-container">  
-                <img class="avatar" src="https://picsum.photos/200.jpg">
-                <div class="badge-avatar">1</div>
-            </div>
-
-            
-            
-            <div class="show-code">
-                
-                &lt;div class="badge-container"&gt;
-                &lt;i
-                    class="material-icons"&gt;
-                    account_circle
-                    
-                    &lt;/i&gt;
-                    
-                    &lt;div class="badge-one"&gt;3&lt;/div&gt;
-                    &lt;/div&gt;
-                
-            </div>
-
-
-            <div class="show-code">
-                
-                &lt;div class="badge-container"&gt;
-                &lt;i
-                    class="material-icons"&gt;
-
-                    add_shopping_cart
-                    
-                    &lt;/i&gt;
-                    
-                    &lt;div class="badge-two"&gt;6&lt;/div&gt;
-                    &lt;/div&gt;
-                
-            </div>
-
-
-
-            <div class="show-code">
-                &lt;div class="badge-container"&gt;
-                &lt;i
-                    class="material-icons"&gt;
-
-                    assignment
-                    
-                    &lt;/i&gt;
-                    
-                    &lt;div class="badge-three"&gt;1&lt;/div&gt;
-                    &lt;/div&gt;
-                
-            </div>
-
-
-
-
-            <div class="show-code">
-                
-                &lt;div class="badge-container"&gt;
-                &lt;img class="avatar" src="https://picsum.photos/200.jpg"&gt;
-                &lt;div class="badge-avatar"&gt;1&lt;/div&gt;
-                &lt;/div&gt;
-                
-            </div>
-
-            <!-- <div class="badge-container">  
-                <img class="avatar" src="https://picsum.photos/200.jpg">
-                <div class="badge-avatar">1</div>
-            </div> -->
-
-
-        </div>
-<!-- BADGE END -->
-
-    </div>
-</div>
 </body>
 </html>
